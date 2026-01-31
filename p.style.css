@@ -1,0 +1,366 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    color: #555;
+}
+
+
+.main-nav {
+    background:radial-gradient( #D2691E, #8B4513);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #ffe7c2 !important;
+}
+
+
+
+.banner {
+    background-image: url("https://img.freepik.com/premium-photo/top-view-dining-table-with-full-delicious-foods-dishes-dry-fruits-copy-space_428665-897.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    padding-left: 60px;
+    color: white;
+    background-color: burlywood;
+}
+
+.choose{
+    background:radial-gradient(rgba(249, 210, 165, 0.955), rgb(230, 178, 110));
+    font-size:30px;
+    background-position: center;   
+}
+.choose h2{
+    font-size:40px;
+    color:#D2691E;
+}
+
+.ima{
+    height:10vh;
+    width:5vw;
+    border:2px solid whitesmoke;
+    border-radius:90px;
+}
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size:25px;
+    color:white;
+}
+
+.btn {
+    background: #D2691E;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8B4513;
+    color:cornsilk;
+}
+
+
+
+.page-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-image:url("https://cdn.images.express.co.uk/img/dynamic/14/590x/secondary/nuts-5352935.jpg?r=1714668486940");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.page-header h2 {
+    font-size: 2.4rem;
+}
+
+.page-header p {
+    font-size: 1rem;
+    color:whitesmoke;
+    font-weight:600;
+}
+
+
+
+.about-img {
+    width: 100vh;
+    border-radius: 15px;
+    height:40vh;
+}
+
+h3 {
+    font-size:40px;
+    color:#D2691E;
+}
+
+.container{
+    margin-left:25px;
+
+}
+.container-fluid{
+    background:radial-gradient(rgb(199, 185, 163), burlywood);
+    width:99vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image{
+    height:40vh;
+    width:45vw;
+}
+
+
+.menu-card {
+    background:radial-gradient(rgb(236, 205, 156), rgb(233, 178, 106));
+    border-radius: 15px;
+    width:25vw;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    margin:auto;
+    transition: 0.3s;
+    border: 1px solid #ead0a4;
+    color:#1e1d1d;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-card h3 {
+    margin-top: 15px;
+    color: #8B4513;
+}
+
+.menu-card p {
+    padding: 0 15px;
+    color:#1e1d1d;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+
+.why-card {
+    background:rgb(238, 225, 216);
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    text-align: center;
+    width:25vw;
+    overflow: hidden;
+    padding-top:20px;
+    padding-bottom: 20px;
+    transition: 0.3s;
+    margin-left:50px;
+    border: 1px solid #eee;
+    color:#1e1d1d;
+}
+
+.why-card img {
+    width:70%;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.why-card h3 {
+    margin-top: 15px;
+    color: #8B4513;
+    font-size: 25px;
+}
+.why-card p{
+    color:#1e1d1d;
+}
+
+
+
+.delivery-card {
+    background: rgb(238, 225, 216);;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    margin-left:50px;
+    width:25vw;
+    overflow: hidden;
+    padding:20px;
+    color:#1e1d1d;
+}
+
+.delivery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.delivery-card h3 {
+    margin-top: 15px;
+    color: #8B4513;
+    font-size:25px;
+}
+.delivery-card p{
+    color:#1e1d1d;
+}
+
+       .payment-box {
+    background:radial-gradient(rgb(236, 205, 156), rgb(233, 178, 106));
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 1px solid #fadfaa;
+    color:#1e1d1d;
+}
+
+.payment-box img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.payment-box p{
+    color:#1e1d1d;
+}
+
+.payment-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+
+
+.footer {
+    background-color: #8B4513;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer p{
+    font-size:15px;
+    color:#252525;
+}
+
+
+.view-btn {
+    background: #d2691e;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background: #8b4513;
+}
+
+
+
+.modal-content {
+    border-radius: 15px; 
+}
+
+.modal-body{
+    background:radial-gradient(#ead0a4, antiquewhite);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.modal-header {
+    background: #8b4513;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.modal-desc {
+    margin-top: 20px;
+}
+
+.modal-desc h4 {
+    color: #8b4513;
+    font-weight: 700;
+}
+
+.modal-desc p{
+    color:#1e1d1d;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.buy-btn {
+    background: #c57a51;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #a66431;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 55vh;
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 2.3rem;
+        font-weight:500;
+    }
+}

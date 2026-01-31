@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="sectionhomepage">    
+    <header>
+        <div class="container">
+            
+            <h1 class="logo">My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="Gemini_Generated_Image_61smfy61smfy61sm.png" class="img"/>
+        <div class="container">
+            <h2>Hello, I'm <span>CHINTHAMANI AKSHAR</span></h2>
+            <p> I'm  a aspiring Full-Stack developer  </p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p> I'm a passionate full-stack developer with experience building scalable web applications using modern technologies. I love solving complex problems, optimizing performance, and creating seamless user experiences from front-end to back-end.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+            <div class="col-6">
+            <h2 class="Featured-color"> Featured Projects</h2>
+            <div class="project-grid">
+
+               
+                <div onclick="display('section-1')" target="_blank">
+                 <h3  class="project-heading-1">Project One :-<br>Smart Traffic Management System (IoT + AI)</h3>
+                 
+                <div class="project-card" >
+                
+                    
+                    
+                    <img src="project_img-1.jpg" alt="project-1" class="pro-1" />
+                   
+                     <p> Smart Traffic Management System (IoT + AI)</p>
+                     <ul>
+                    <li>Tech Stack: Raspberry Pi, Python, OpenCV, MQTT, AWS</li>
+                    <li>Overview: Developed an intelligent traffic control system using real-time video analytics and sensor data to optimize traffic flow and reduce congestion.</li>
+                    <li>Impact: Reduced average wait time by 30% in simulated environments.</li>
+                    </ul>
+                   
+                </div>
+               </div>
+               
+                
+               
+
+
+                <div>
+                <h3 class="project-heading-1">Project Two :-<br>AI-Powered Resume Analyzer</h3>
+                <div class="project-card" onclick="display('section-2')" target="_blank">
+                    
+                    
+                    
+                    
+                    <img src="projecst_img-2.jpg" alt="project-2"/>
+                   
+                          <p>AI-Powered Resume Analyzer</p>
+                          <ul>
+                          <li>Tech Stack: Python, NLP (spaCy), Streamlit, OpenAI API</li>
+                          <li>Overview: Built a web app that evaluates resumes using AI, providing feedback on clarity, relevance, and keyword optimization.</li>
+                          <li>Impact: Used by over 500 job seekers to improve their resumes.</li>
+                          </ul> 
+                     
+                </div>
+                </div>
+              
+
+                <div>
+                 <h3 class="project-heading-1">Project Three :-<br>Blockchain-Based Voting Platform</h3>
+                 
+                <div class="project-card" onclick="display('section-3')" target="_blank">
+                    
+                    <img src="project_img-3.jpg" alt="Project 3">
+                    
+                   
+                          <p> Blockchain-Based Voting Platform</p>
+                          <ul>
+                         <li> Tech Stack: Solidity, Ethereum, React, Web3.js</li>
+                         <li>Overview: Created a secure and transparent voting system using smart contracts to ensure tamper-proof elections.</li>
+                         <li>Impact: Demonstrated at a university hackathon and won 2nd place.</li>
+                         </ul>
+                </div>
+                </div>
+                
+                <div>
+                <h3 class="project-heading-1">Project Four:-<br>Augmented Reality Learning App</h3>
+                <div class="project-card" onclick="display('section-4')" target="_blank">
+                    
+                    <img src="project_img-4.jpg" alt="Project 4">
+                    
+                    
+                          <p> Augmented Reality Learning App</p>
+                          <ul>
+                          <li> Tech Stack: Unity, Vuforia, C#</li>
+                          <li> Overview: Designed an AR app for interactive science education, allowing students to visualize complex concepts like DNA structures and planetary motion.</li>
+                          <li>Impact: Piloted in two schools with positive feedback from educators.</li>
+                          </ul>
+                    
+                </div>
+                </div>
+                <div>
+                 <h3 class="project-heading-1">Project Five :-<br> AI Chatbot for Mental Health Support</h3>
+                <div class="project-card" onclick="display('section-5')" target="_blank">
+                    
+                    <img src="project_img-5.jpg" alt="Project 5">
+                    
+                   
+                          <p> AI Chatbot for Mental Health Support</p>
+                          <ul>
+                          <li> Tech Stack: Python, TensorFlow, Dialogflow, Firebase</li>
+                          <li> Overview: Built a conversational agent to provide empathetic support and resources for mental wellness.</li>
+                          <li> Impact: Recognized by a local NGO for its potential in community outreach.</li>
+                          </ul>
+                   
+                </div>
+                </div>
+            </div>
+            </div>
+    
+        </div>
+      </div>
+    </section>
+    <hr>
+    
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2><br><h4>Front-end:</h4>
+            <ul class="skill-list">
+                <li>HTML5,CSS3</li>
+                <li>JavaScript,React</li>
+                <li>Responsive Design</li>
+                <li>Tailwind CSS, Bootstrap</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h4>Back-end:</h4>
+            <ul class="skill-list">
+                <li>Node.js, Express.js</li>
+                <li>Python (Django)</li>
+                <li>RESTful APIs</li>
+            </ul>
+        </div>
+
+
+        <div class="container">
+            <h4>Databases:</h4>
+            <ul class="skill-list">
+                <li>MongoDB, PostgreSQL, MySQL</li>
+                <li>Firebase, Supabase</li>
+            </ul>
+        </div>
+
+
+        <div class="container">
+            <h4>DevOps & Tools:</h4>
+            <ul class="skill-list">
+                <li>Git, GitHub, GitLab</li>
+                <li>VS Code, Postman, Figma</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Interested in working together or have a question? Send me a message below!</p>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" id="end tage">
+           <p>&copy; 2025 NIAT. All Rights Reserved.</p>
+        </div>
+    </footer>
+</div>    
+
+
+
+<div id="section-1">
+ <div class="sectionproject-1">
+   
+        <h4 class="head-sec-project">MORE INFORMATION ABOUT <span>Traffic Management System</span></h4>
+
+    <div class="pass-sec-project">
+        <p>
+                A Smart Traffic Management System (STMS) uses advanced technologies like AI, IoT, and data analytics to optimize traffic flow, reduce congestion, and improve road safety in urban environments.
+       
+        <hr>
+        <ul>
+
+         What Is a Smart Traffic Management System?
+
+        A Smart Traffic Management System is an intelligent infrastructure solution designed to monitor, analyze, and manage traffic in real time. It integrates sensors, cameras, GPS, and communication networks to collect data and make dynamic decisions that improve traffic efficiency.
+
+        </ul>
+        <hr>
+        <ul>
+
+         Key Technologies Involved
+
+        - Internet of Things (IoT): Connects traffic lights, vehicles, and sensors to a central system for real-time data exchange.
+        - Artificial Intelligence (AI): Predicts traffic patterns and adjusts signals to reduce bottlenecks.
+        - Machine Learning: Learns from historical traffic data to improve future traffic flow.
+        - Video Processing: Detects vehicle density, violations, and incidents using surveillance footage.
+
+        </ul>
+
+
+        <hr>
+        <ul>
+         Core Features
+
+        - Adaptive Traffic Signals: Automatically adjust based on traffic volume and time of day.
+        - Real-Time Monitoring: Tracks vehicle movement, congestion, and accidents.
+        - Emergency Vehicle Prioritization: Clears paths for ambulances and fire trucks.
+        - Smart Parking Guidance: Directs drivers to available parking spots.
+        - Environmental Monitoring: Measures pollution levels and suggests alternate routes.
+        </ul>
+        <hr>
+        <ul>
+         Benefits
+
+        - Reduced Congestion: Dynamic signal control and route optimization ease traffic jams.
+        - Improved Safety: Faster response to accidents and better visibility for enforcement.
+        - Lower Emissions: Efficient traffic flow reduces idle time and fuel consumption.
+        - Economic Efficiency: Saves time and fuel, improving productivity and logistics.
+        </ul>
+        <hr>
+        <ul>
+         Future Outlook
+
+        Smart traffic systems are evolving toward fully autonomous traffic ecosystems, where vehicles and infrastructure communicate seamlessly. Cities are investing in 5G networks and edge computing to support faster, more reliable traffic decisions.
+        Would you like to explore how STMS is being implemented in Indian cities or how to design one for a project? I can dive deeper into use cases or technical architecture next!
+        </ul>
+        <hr>
+        </p>
+    </div>
+
+
+        <div class="btn-1">
+            <button class="button btn-dark" onclick="display('sectionhomepage')">
+                Go To Home 
+            </button>
+        </div>
+      
+   
+</div>    
+</div>
+
+
+ <div  id="section-2">
+    <div class="sectionproject-2">
+        
+      
+    <h4 class="head-sec-project">MORE INFORMATION ABOUT <span>AI-Powered Resume Analyzer</span></h4>
+
+        <div class="pass-sec-project">
+            <p>
+                An AI-powered resume analyzer is a smart tool that evaluates resumes using artificial intelligence to improve job application success.It checks formatting, keyword relevance, and alignment with job descriptions to help candidates stand out.
+            <ul>
+                 What Is an AI-Powered Resume Analyzer?
+
+                An AI-powered resume analyzer uses machine learning and natural language processing to scan and assess resumes. It mimics how recruiters and applicant tracking systems (ATS) evaluate resumes, offering feedback to optimize them for specific roles.
+            </ul>
+            <hr>
+            <ul>
+                 Key Features
+
+                - ATS Compatibility Check: Ensures your resume passes through automated systems used by employers.
+                - Keyword Matching: Compares your resume against a job description to highlight missing or relevant keywords.
+                - Content Summarization: Extracts and summarizes key information like work experience, education, and achievements.
+                - Improvement Suggestions: Offers tailored tips to enhance clarity, structure, and relevance.
+                - Instant Scoring: Provides a score based on how well your resume aligns with the job role and ATS standards.
+            </ul>
+            <hr>
+
+            <ul>
+                 Who Uses These Tools?
+
+                - Job Seekers: To refine resumes and increase interview chances.
+                - Recruiters & HR Professionals: To quickly assess candidate suitability.
+                - Career Coaches: To guide clients in building stronger resumes.
+            </ul>
+            <hr>
+
+            <ul>
+                 Popular Tools
+
+                - Enhancv Resume Checker: Offers 16 checks and ATS scoring.
+                - HyperWrite AI Resume Analyzer: Summarizes resumes and highlights key qualifications.
+                - Interviews Vector Analyzer: Matches resumes to job descriptions and suggests improvements.
+            </ul>
+            <hr>
+
+            <ul>
+                 Benefits
+
+                - Saves time and effort in resume editing.
+                - Increases chances of passing ATS filters.
+                - Helps tailor resumes for specific job applications.
+                - Provides actionable insights for improvement.
+            </ul>
+            <hr>
+        </p>
+        </div>
+
+        <div class="btn-1">
+            <button class="button btn-dark" onclick="display('sectionhomepage')">
+                Go To Home 
+            </button>
+        </div>
+
+</div>
+</div>
+
+
+<div  id="section-3">
+    <div class="sectionproject-3">
+     <h4 class="head-sec-project">MORE INFORMATION ABOUT <span>Blockchain-Based Voting Platform</span></h1>
+        <div class="pass-sec-project">
+            
+        <p>   Blockchain-based voting platforms offer a secure, transparent, and tamper-proof way to conduct elections by recording votes on decentralized digital ledgers.
+
+
+    <ul>
+         🛠 How Blockchain Voting Works
+         - Decentralized Ledger: Each vote is recorded as a transaction on a blockchain, making it immutable and traceable.
+         - Digital Identity Verification: Voters register using secure digital IDs to ensure only eligible individuals can vote.
+         - End-to-End Transparency: Every action—from casting to counting—is visible and verifiable by all stakeholders.
+    </ul>
+    <hr>
+
+    <ul>
+         Key Benefits
+        - Security: Blockchain's cryptographic protocols protect against vote tampering, DDoS attacks, and unauthorized access.
+        - Transparency: Publicly accessible ledgers allow anyone to audit the election process.
+        - Efficiency: Eliminates paperwork and manual counting, speeding up results.
+        - Accessibility: Enables remote voting, which is especially beneficial for differently-abled individuals or those in remote areas.
+    </ul>
+        <hr>
+
+    <ul>
+         Challenges and Considerations
+        - Digital Divide: Not all voters have access to the internet or digital literacy.
+        - Scalability: Handling millions of votes securely and quickly remains a technical hurdle.
+        - Regulatory Compliance: Legal frameworks for blockchain voting are still evolving in many countries.
+        - Privacy vs. Transparency: Balancing voter anonymity with public auditability is complex.
+    </ul>
+        <hr>
+
+
+    <ul>
+
+         Real-World Applications
+        - Countries like Estonia and Switzerland have experimented with blockchain voting in local and national elections.
+        - Universities and organizations use it for internal elections to ensure fairness and reduce administrative overhead.
+    </ul>
+        <hr>
+</p>
+</div>
+</div>
+
+        <div class="btn-1">
+            <button class="button btn-dark" onclick="display('sectionhomepage')">
+                Go To Home 
+            </button>
+        </div>
+    </div>
+</div>
+    
+<div id="section-4" >
+    <div class="sectionproject-4">
+        <h4 class="head-sec-project">MORE INFORMATION ABOUT <span>Augmented Reality Learning App</span></h4>
+        <div class="pass-sec-project">
+           <p>Augmented Reality (AR) learning apps use interactive 3D visuals and real-world overlays to make education more immersive, engaging, and effective.** These apps blend digital content with the physical environment, helping students visualize abstract concepts and explore topics in dynamic ways.
+
+
+<ul>
+ What Is an AR Learning App?
+An Augmented Reality Learning App is a mobile or tablet-based application that uses your device's camera and sensors to superimpose educational content—like 3D models, animations, or simulations—onto the real world. This allows learners to interact with virtual objects as if they were physically present.
+</ul>
+<hr>
+
+<ul>
+  Key Features
+- Interactive 3D Models: Students can rotate, zoom, and explore objects like the human heart, solar system, or historical artifacts.
+- Real-World Contextualization: AR places learning materials in familiar environments, helping students relate better to abstract ideas.
+- Gamified Learning: Many apps include challenges, quizzes, and rewards to boost engagement.
+- Multisensory Experience: Combines visual, auditory, and kinesthetic learning styles for deeper understanding.
+</ul>
+<hr>
+
+
+
+<ul>
+  Popular AR Learning Apps
+Here are a few standout examples:-
+- JigSpace: Offers interactive “jigs” that explain topics like engines, anatomy, and history.
+- Merge EDU: Lets students hold and manipulate digital objects using a physical Merge Cube.
+- Quiver: Brings coloring pages to life with animated AR scenes.
+- AR Flashcards: Helps young learners recognize letters and animals through animated flashcards.
+</ul>
+<hr>
+
+<ul>
+Sources:- 
+
+
+ Educational Benefits:-
+- Enhanced Engagement: AR captures attention and motivates learners through novelty and interactivity.
+- Improved Retention: Visual and hands-on experiences help reinforce memory.
+- Empathy and Perspective-Taking: AR simulations can foster emotional understanding, such as walking in someone else's shoes.
+- Accessibility: AR can simplify complex subjects for learners with different needs and abilities.
+
+<hr>
+
+ Challenges to Consider:-
+- Device Dependence: Requires smartphones or tablets with AR capabilities.
+- Cost and Scalability: Some apps or hardware (like AR headsets) can be expensive.
+- Distraction Risk: Without proper guidance, students may focus more on the tech than the learning.
+
+</ul>
+</p>
+</div>
+<hr>
+
+        <div class="btn-1">
+            <button class="button btn-dark" onclick="display('sectionhomepage')">
+                Go To Home 
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="section-5" >
+    <div class="sectionproject-5">
+    <h4 class="head-sec-project">MORE INFORMATION ABOUT <span>AI Chatbot for Mental Health Support</span></h4>
+    <div class="pass-sec-project">
+        <p>AI chatbots for mental health support offer accessible, judgment-free emotional care and coping tools, but they are not substitutes for professional therapy. They're designed to assist users with stress, anxiety, and mood management through conversation, guidance, and self-help resources.
+
+
+<ul>
+  What Are AI Mental Health Chatbots?
+AI mental health chatbots are digital tools that simulate human-like conversations to help users manage emotional challenges. They use natural language processing and machine learning to:
+- Recognize emotional cues
+- Provide supportive responses
+- Suggest coping strategies
+- Guide users through exercises like mindfulness or CBT (Cognitive Behavioral Therapy)
+
+Popular examples include Woebot, Wysa, and Replika.
+</ul>
+
+<hr>
+
+<ul>
+ Benefits of AI Chatbots
+- 24/7 Availability: Users can access support anytime, especially during emotional crises.
+- Privacy and Anonymity: Chatbots offer a safe space to express feelings without fear of judgment.
+- Scalability: They can reach millions of users simultaneously, helping bridge gaps in mental health care.
+- Cost-Effective: Many are free or low-cost, making mental health support more accessible.
+</ul>
+
+<hr>
+
+
+<ul>
+ Limitations and Concerns
+- Lack of Human Empathy: Chatbots can't truly understand or respond to complex human emotions.
+- Privacy Risks: Sensitive data may be stored or shared depending on the platform's policies.
+- Not a Replacement for Therapy: They're best used as companions or supplements—not substitutes—for licensed mental health professionals.
+
+</ul>
+
+
+<ul>
+ Effectiveness and Use Cases
+A 2024 review found that AI chatbots are *feasible and moderately effective* for managing mild to moderate symptoms of anxiety and depression. They’re especially useful for:
+- Early intervention
+- Daily emotional check-ins
+- Building healthy habits
+- Supporting users between therapy sessions
+
+</ul>
+
+<hr>
+
+
+<ul>
+Future Directions
+Developers are working to improve:
+- Emotional intelligence and personalization
+- Integration with wearable health data
+- Multilingual and culturally sensitive support
+
+For those in India or other regions with limited access to mental health professionals, these tools can be a valuable first step toward care.
+
+</ul>
+</p>
+</div>
+    <hr>
+
+        <div class="btn-1">
+            <button class="button btn-dark" onclick="display('sectionhomepage')">
+                Go To Home 
+            </button>
+        </div>
+
+
+</div>
+</div>
+
+   
+<script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
